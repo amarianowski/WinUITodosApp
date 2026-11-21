@@ -51,8 +51,26 @@ CodeCoverage/
 [Tt]est[Rr]esult*/
 [Bb]uild[Ll]og.*
 
+# Visual Studio
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# WinUI and Windows App SDK packaging output
+[Aa]ppPackages/
+[Bb]undleArtifacts/
+*.appx
+*.appxbundle
+*.appxupload
+*.msix
+*.msixbundle
+*.msixupload
+*.assets.cache
+*.wapproj.user
+
 # NUnit
 *.VisualState.xml
 TestResult.xml
 nunit-*.xml
-/.vs
